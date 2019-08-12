@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import './App.css';
+import './App.scss';
 
 const App: FunctionComponent = () => {
   return (
