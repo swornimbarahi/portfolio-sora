@@ -1,6 +1,0 @@
-node_modules
-dist
-build
-public
-src/serviceWorker.ts
-prettier.config.json

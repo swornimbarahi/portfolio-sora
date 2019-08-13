@@ -29,9 +29,5 @@ jobs:
           command: yarn tslint
 
       - run:
-          name: Prettier Checks
-          command: yarn prettier
-
-      - run:
           name: Running tests
           command: yarn test
