@@ -20,7 +20,9 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"tslint": " eslint . --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx"
+    "tslint": " eslint . --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
+    "prettier": "prettier --check prettier.config.json \"./src/**/*.{js,ts,tsx,jsx,json,md,scss}\"",
+    "precommit": "yarn prettier && yarn tslint"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
