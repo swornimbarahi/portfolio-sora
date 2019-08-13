@@ -26,7 +26,7 @@ jobs:
 
       - run:
           name: TSLint Checks
-          command: yarn tslint:ci
+          command: yarn tslint
 
       - run:
           name: Prettier Checks
