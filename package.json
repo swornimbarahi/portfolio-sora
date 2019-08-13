@@ -21,7 +21,8 @@
     "eject": "react-scripts eject",
     "tslint": "eslint . --fix --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
     "tslint:ci": " eslint . --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
-    "prettier": "prettier -c prettier.config.js '**/*.{js,ts,tsx,jsx,json,md,scss}'"
+    "prettier": "prettier --check prettier.config.js '**/*.{js,ts,tsx,jsx,json,md,scss}'",
+    "precommit": "prettier && tslint"
   },
   "eslintConfig": {
     "extends": "react-app"
