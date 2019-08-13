@@ -13,8 +13,6 @@
 		"jest": true
 	},
 	"rules": {
-		"indent": [2, 2],
-		"indentSwitchCase": true,
 		"quotes": ["error", "double"],
 		"semi": ["error", "always"],
 		"@typescript-eslint/explicit-function-return-type": 0
