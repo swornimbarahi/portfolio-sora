@@ -1,0 +1,9 @@
+.ui-border-radius {
+  border-radius: 3px;
+
+  @for $i from 0 through 15 {
+    &--#{$i} {
+      border-radius: $i * 1px;
+    }
+  }
+}

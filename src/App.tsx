@@ -4,7 +4,7 @@ import "./App.scss";
 const App: FunctionComponent = () => {
   return (
     <div className="App">
-      <div className="intro-title">{"Hi! I'm Swornim barahi."}</div>
+      <div className="ui-m--4">{"Hi! I'm Swornim barahi."}</div>
     </div>
   );
 };
