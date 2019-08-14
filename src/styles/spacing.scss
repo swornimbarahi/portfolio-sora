@@ -1,0 +1,84 @@
+@for $i from 0 through 10 {
+	/*
+    Mutliplier
+  */
+	$size: $i * 10px;
+
+	/*
+    Padding
+  */
+	.ui-p--#{$i} {
+		padding: $size;
+	}
+
+	.ui-pt--#{$i} {
+		padding-top: $size;
+	}
+
+	.ui-pb--#{$i} {
+		padding-bottom: $size;
+	}
+
+	.ui-pl--#{$i} {
+		padding-left: $size;
+	}
+
+	.ui-pr--#{$i} {
+		padding-right: $size;
+	}
+
+	/*
+    Margin
+  */
+	.ui-m--#{$i} {
+		margin: $size;
+	}
+
+	.ui-mt--#{$i} {
+		margin-top: $size;
+	}
+
+	.ui-mb--#{$i} {
+		margin-bottom: $size;
+	}
+
+	.ui-ml--#{$i} {
+		margin-left: $size;
+	}
+
+	.ui-mr--#{$i} {
+		margin-right: $size;
+	}
+}
+
+/*
+  Auto Margin
+*/
+.ui-ma {
+	margin: auto;
+}
+
+.ui-mra {
+	margin-right: auto;
+}
+
+.ui-mla {
+	margin-left: auto;
+}
+
+.ui-border {
+	border-width: 1px;
+	border-color: $black;
+
+	&--solid {
+		border-style: solid;
+	}
+
+	&--dashed {
+		border-style: dashed;
+	}
+
+	&--dotted {
+		border-style: dashed;
+	}
+}

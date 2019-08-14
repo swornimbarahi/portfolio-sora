@@ -1,0 +1,71 @@
+$white: /*   */ #ffffff;
+$black: /*   */ #000000;
+$red: /*     */ #f05d5e;
+$charcoal: /**/ #230f0f;
+$olive: /*   */ #3f3a3a;
+
+.ui-bg {
+	&--white {
+		background-color: $white;
+	}
+
+	&--black {
+		background-color: $black;
+	}
+
+	&--red {
+		background-color: $red;
+	}
+
+	&--charcoal {
+		background-color: $charcoal;
+	}
+
+	&--olive {
+		background-color: $olive;
+	}
+}
+
+.ui-color {
+	&--white {
+		color: $white;
+	}
+
+	&--black {
+		color: $black;
+	}
+
+	&--red {
+		color: $red;
+	}
+
+	&--charcoal {
+		color: $charcoal;
+	}
+
+	&--olive {
+		color: $olive;
+	}
+}
+
+.ui-border-color {
+	&--white {
+		border-color: $white;
+	}
+
+	&--black {
+		border-color: $black;
+	}
+
+	&--red {
+		border-color: $red;
+	}
+
+	&--charcoal {
+		border-color: $charcoal;
+	}
+
+	&--olive {
+		border-color: $olive;
+	}
+}
