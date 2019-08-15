@@ -1,29 +1,29 @@
 .ui-display {
-	&--block {
-		display: block;
-	}
+  &--block {
+    display: block;
+  }
 
-	&--inline-block {
-		display: inline-block;
-	}
+  &--inline-block {
+    display: inline-block;
+  }
 
-	&--inline {
-		display: inline;
-	}
+  &--inline {
+    display: inline;
+  }
 }
 
 .ui-grid {
-	display: grid;
+  display: grid;
 }
 
 .ui-flex {
-	display: flex;
+  display: flex;
 }
 
 .ui-min-vh {
-	min-height: 100vh;
+  min-height: 100vh;
 }
 
 .ui-min-vw {
-	min-width: 100vw;
+  min-width: 100vw;
 }
