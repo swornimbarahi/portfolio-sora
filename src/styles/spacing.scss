@@ -79,6 +79,171 @@
   }
 
   &--dotted {
-    border-style: dashed;
+    border-style: dotted;
+  }
+}
+
+@media (max-width: 1366px) {
+  @for $i from 0 through 10 {
+    /*
+      Mutliplier
+    */
+    $size: $i * 8px;
+
+    /*
+      Padding
+    */
+    .ui-p--#{$i} {
+      padding: $size;
+    }
+
+    .ui-pt--#{$i} {
+      padding-top: $size;
+    }
+
+    .ui-pb--#{$i} {
+      padding-bottom: $size;
+    }
+
+    .ui-pl--#{$i} {
+      padding-left: $size;
+    }
+
+    .ui-pr--#{$i} {
+      padding-right: $size;
+    }
+
+    /*
+      Margin
+    */
+    .ui-m--#{$i} {
+      margin: $size;
+    }
+
+    .ui-mt--#{$i} {
+      margin-top: $size;
+    }
+
+    .ui-mb--#{$i} {
+      margin-bottom: $size;
+    }
+
+    .ui-ml--#{$i} {
+      margin-left: $size;
+    }
+
+    .ui-mr--#{$i} {
+      margin-right: $size;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  @for $i from 0 through 10 {
+    /*
+      Mutliplier
+    */
+    $size: $i * 5px;
+
+    /*
+      Padding
+    */
+    .ui-p--#{$i} {
+      padding: $size;
+    }
+
+    .ui-pt--#{$i} {
+      padding-top: $size;
+    }
+
+    .ui-pb--#{$i} {
+      padding-bottom: $size;
+    }
+
+    .ui-pl--#{$i} {
+      padding-left: $size;
+    }
+
+    .ui-pr--#{$i} {
+      padding-right: $size;
+    }
+
+    /*
+      Margin
+    */
+    .ui-m--#{$i} {
+      margin: $size;
+    }
+
+    .ui-mt--#{$i} {
+      margin-top: $size;
+    }
+
+    .ui-mb--#{$i} {
+      margin-bottom: $size;
+    }
+
+    .ui-ml--#{$i} {
+      margin-left: $size;
+    }
+
+    .ui-mr--#{$i} {
+      margin-right: $size;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  @for $i from 0 through 10 {
+    /*
+      Mutliplier
+    */
+    $size: $i * 3px;
+
+    /*
+      Padding
+    */
+    .ui-p--#{$i} {
+      padding: $size;
+    }
+
+    .ui-pt--#{$i} {
+      padding-top: $size;
+    }
+
+    .ui-pb--#{$i} {
+      padding-bottom: $size;
+    }
+
+    .ui-pl--#{$i} {
+      padding-left: $size;
+    }
+
+    .ui-pr--#{$i} {
+      padding-right: $size;
+    }
+
+    /*
+      Margin
+    */
+    .ui-m--#{$i} {
+      margin: $size;
+    }
+
+    .ui-mt--#{$i} {
+      margin-top: $size;
+    }
+
+    .ui-mb--#{$i} {
+      margin-bottom: $size;
+    }
+
+    .ui-ml--#{$i} {
+      margin-left: $size;
+    }
+
+    .ui-mr--#{$i} {
+      margin-right: $size;
+    }
   }
 }
