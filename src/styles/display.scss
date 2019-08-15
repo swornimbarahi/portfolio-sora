@@ -1,0 +1,29 @@
+.ui-display {
+	&--block {
+		display: block;
+	}
+
+	&--inline-block {
+		display: inline-block;
+	}
+
+	&--inline {
+		display: inline;
+	}
+}
+
+.ui-grid {
+	display: grid;
+}
+
+.ui-flex {
+	display: flex;
+}
+
+.ui-min-vh {
+	min-height: 100vh;
+}
+
+.ui-min-vw {
+	min-width: 100vw;
+}

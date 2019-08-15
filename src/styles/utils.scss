@@ -1,9 +1,13 @@
 .ui-border-radius {
-  border-radius: 3px;
+	border-radius: 3px;
 
-  @for $i from 0 through 15 {
-    &--#{$i} {
-      border-radius: $i * 1px;
-    }
-  }
+	@for $i from 0 through 15 {
+		&--#{$i} {
+			border-radius: $i * 1px;
+		}
+	}
+}
+
+.ui-circle {
+	border-radius: 50%;
 }
