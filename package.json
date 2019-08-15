@@ -21,9 +21,11 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"tslint": " eslint . --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
+		"tslint:fix": " eslint . --fix --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
 		"prettier": "prettier --check prettier.config.json \"./src/**/*.{js,ts,tsx,jsx,json,md,scss}\"",
 		"prettier:fix": "prettier --write prettier.config.json \"./src/**/*.{js,ts,tsx,jsx,json,md,scss}\"",
-		"precommit": "yarn prettier && yarn tslint"
+		"precommit": "yarn prettier && yarn tslint",
+		"precommit:fix": "yarn tslint:fix && yarn prettier:fix"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
