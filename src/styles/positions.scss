@@ -1,0 +1,35 @@
+.ui-position {
+  &--fixed {
+    position: fixed;
+  }
+
+  &--sticky {
+    position: sticky;
+  }
+
+  &--absolute {
+    position: absolute;
+  }
+}
+
+@for $i from 0 through 10 {
+  $pos: $i * 10px;
+
+  .ui-position {
+    &--left-#{$i} {
+      left: $pos;
+    }
+
+    &--right-#{$i} {
+      right: $pos;
+    }
+
+    &--top-#{$i} {
+      top: $pos;
+    }
+
+    &--bottom-#{$i} {
+      bottom: $pos;
+    }
+  }
+}
