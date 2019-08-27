@@ -15,7 +15,8 @@
 		"indent": "off",
 		"quotes": ["error", "double"],
 		"semi": ["error", "always"],
-		"@typescript-eslint/explicit-function-return-type": 0
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "react/prop-types": [2, { "ignore": ["children", "className"]}]
 	},
 	"settings": {
 		"react": {
