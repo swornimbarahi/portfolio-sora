@@ -23,38 +23,47 @@ export const MainPage: FunctionComponent = () => {
 				/>
 			</div>
 			<div>
-				<GitHub
-					className={classnames(
-						"ui-position--fixed",
-						"ui-axis--normalize",
-						styles["main-page--logo"],
-						styles["main-page--logo-placement-github"]
-					)}
-				/>
-				<Gmail
-					className={classnames(
-						"ui-position--fixed",
-						"ui-axis--normalize",
-						styles["main-page--logo"],
-						styles["main-page--logo-placement-gmail"]
-					)}
-				/>
-				<LinkedIn
-					className={classnames(
-						"ui-position--fixed",
-						"ui-axis--normalize",
-						styles["main-page--logo"],
-						styles["main-page--logo-placement-linkedin"]
-					)}
-				/>
-				<Medium
-					className={classnames(
-						"ui-position--fixed",
-						"ui-axis--normalize",
-						styles["main-page--logo"],
-						styles["main-page--logo-placement-medium"]
-					)}
-				/>
+				<a href="https://github.com/swornimbarahi" target="_blank">
+					<GitHub
+						className={classnames(
+							"ui-position--fixed",
+							"ui-axis--normalize",
+							styles["main-page--logo"],
+							styles["main-page--logo-placement-github"]
+						)}
+					/>
+				</a>
+
+				<a href="mailto:swornimbarahi@gmail.com" target="_blank">
+					<Gmail
+						className={classnames(
+							"ui-position--fixed",
+							"ui-axis--normalize",
+							styles["main-page--logo"],
+							styles["main-page--logo-placement-gmail"]
+						)}
+					/>
+				</a>
+				<a href="https://linkedin.com/in/swornimbarahi" target="_blank">
+					<LinkedIn
+						className={classnames(
+							"ui-position--fixed",
+							"ui-axis--normalize",
+							styles["main-page--logo"],
+							styles["main-page--logo-placement-linkedin"]
+						)}
+					/>
+				</a>
+				<a href="https://medium.com/@swornimbarahi" target="_blank">
+					<Medium
+						className={classnames(
+							"ui-position--fixed",
+							"ui-axis--normalize",
+							styles["main-page--logo"],
+							styles["main-page--logo-placement-medium"]
+						)}
+					/>
+				</a>
 			</div>
 		</>
 	);
