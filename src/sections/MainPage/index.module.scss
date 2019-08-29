@@ -1,35 +1,35 @@
 .main-page--profile-placement {
-	top: 50vh;
-	left: 30vw;
+  top: 50vh;
+  left: 30vw;
 }
 
 .main-page--profile-picture {
-	height: 300px;
-	width: 300px;
+  height: 300px;
+  width: 300px;
 }
 
 .main-page--logo {
   height: 70px;
 
-	&-placement {
-		&-github {
-			left: 55vw;
-			top: 50vh;
-		}
+  &-placement {
+    &-github {
+      left: 55vw;
+      top: 50vh;
+    }
 
-		&-gmail {
-			left: 65vw;
-			top: 50vh;
-		}
+    &-gmail {
+      left: 65vw;
+      top: 50vh;
+    }
 
-		&-linkedin {
-			left: 75vw;
-			top: 50vh;
-		}
+    &-linkedin {
+      left: 75vw;
+      top: 50vh;
+    }
 
-		&-medium {
-			left: 85vw;
-			top: 50vh;
-		}
-	}
+    &-medium {
+      left: 85vw;
+      top: 50vh;
+    }
+  }
 }
