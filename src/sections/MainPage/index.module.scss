@@ -1,5 +1,4 @@
 .main-page--profile-placement {
-  transform: translate(-50%, -50%);
   top: 50vh;
   left: 30vw;
 }
@@ -9,13 +8,28 @@
   width: 300px;
 }
 
-.main-page--logo-placement {
-  height: 300px;
-  width: 300px;
-}
+.main-page--logo {
+  height: 70px;
 
-.gmail-logo {
-  fill: #ff0000;
-  top: 50vh;
-  left: 60vw;
+  &-placement {
+    &-github {
+      left: 55vw;
+      top: 50vh;
+    }
+
+    &-gmail {
+      left: 65vw;
+      top: 50vh;
+    }
+
+    &-linkedin {
+      left: 75vw;
+      top: 50vh;
+    }
+
+    &-medium {
+      left: 85vw;
+      top: 50vh;
+    }
+  }
 }
