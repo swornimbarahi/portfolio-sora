@@ -17,6 +17,9 @@ export const MainPage: FunctionComponent = () => {
             "ui-circle",
             "ui-position--fixed",
             "ui-axis--normalize",
+            "ui-border--2",
+            "ui-border--solid",
+            "ui-border-color--white",
             styles["main-page--profile-placement"],
             styles["main-page--profile-picture"]
           )}
@@ -30,8 +33,12 @@ export const MainPage: FunctionComponent = () => {
         >
           <GitHub
             className={classnames(
+              "ui-circle",
               "ui-position--fixed",
               "ui-axis--normalize",
+              "ui-border--2",
+              "ui-border--solid",
+              "ui-border-color--white",
               styles["main-page--logo"],
               styles["main-page--logo-placement-github"]
             )}
@@ -45,8 +52,12 @@ export const MainPage: FunctionComponent = () => {
         >
           <Gmail
             className={classnames(
+              "ui-circle",
               "ui-position--fixed",
               "ui-axis--normalize",
+              "ui-border--2",
+              "ui-border--solid",
+              "ui-border-color--white",
               styles["main-page--logo"],
               styles["main-page--logo-placement-gmail"]
             )}
@@ -59,8 +70,12 @@ export const MainPage: FunctionComponent = () => {
         >
           <LinkedIn
             className={classnames(
+              "ui-circle",
               "ui-position--fixed",
               "ui-axis--normalize",
+              "ui-border--2",
+              "ui-border--solid",
+              "ui-border-color--white",
               styles["main-page--logo"],
               styles["main-page--logo-placement-linkedin"]
             )}
@@ -73,8 +88,12 @@ export const MainPage: FunctionComponent = () => {
         >
           <Medium
             className={classnames(
+              "ui-circle",
               "ui-position--fixed",
               "ui-axis--normalize",
+              "ui-border--2",
+              "ui-border--solid",
+              "ui-border-color--white",
               styles["main-page--logo"],
               styles["main-page--logo-placement-medium"]
             )}

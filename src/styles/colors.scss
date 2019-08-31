@@ -69,25 +69,3 @@ $olive: /*   */ #3f3a3a;
     border-color: $olive;
   }
 }
-
-.ui-padding-color {
-  &--white {
-    border-color: $white;
-  }
-
-  &--black {
-    border-color: $black;
-  }
-
-  &--red {
-    border-color: $red;
-  }
-
-  &--charcoal {
-    border-color: $charcoal;
-  }
-
-  &--olive {
-    border-color: $olive;
-  }
-}
