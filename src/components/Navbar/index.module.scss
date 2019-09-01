@@ -1,0 +1,29 @@
+@import "./../../styles/colors.scss";
+
+.navbar-height {
+  height: 80px;
+	box-shadow: 0 15px 45px 0 rgba(48, 48, 48, 0.2);
+}
+
+.navbar-link {
+	display: inline-block;
+	position: relative;
+}
+
+.navbar-link::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 3px;
+	bottom: 0;
+	left: 0;
+  background-color: $charcoal;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-link:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

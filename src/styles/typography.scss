@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+}
+
 .ui-h {
   &--1 {
     font-size: 60px;
@@ -88,4 +92,8 @@ strong {
 em {
   font-style: italic;
   font-weight: bolder;
+}
+
+.ui-font--cursive {
+  font-family: 'Dancing Script'
 }

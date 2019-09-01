@@ -18,6 +18,28 @@
 
 .ui-flex {
   display: flex;
+
+  &--vertical {
+    flex-direction: column;
+  }
+  
+  &--grow{
+    flex-grow: 1;
+  }
+}
+
+.ui-vertical-align{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ui-space-evenly {
+  justify-content: space-evenly;
+}
+
+.ui-space-between {
+  justify-content: space-between;
 }
 
 .ui-min-vh {
@@ -28,6 +50,24 @@
   min-width: 100vw;
 }
 
+.ui-min-w--100 {
+  width: 100%;
+}
+
 .ui-overflow--hidden {
   overflow: hidden;
+}
+
+.ui-body {
+  width: 1500px;
+}
+
+@media(max-width: 1800px) {
+  .ui-body {
+    width: 80vw;
+  }
+}
+
+.ui-width-auto {
+  width: auto;
 }
