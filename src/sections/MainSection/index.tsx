@@ -47,7 +47,7 @@ export const MainSection: FunctionComponent = () => {
 				className={classnames("ui-flex", "ui-flex--grow", "ui-flex--vertical")}
 			>
 				<div className={classnames("ui-flex", "ui-text--center", "ui-ma")}>
-					<div className="ui-mb--6">
+					<div className={classnames("ui-mb--6", "ui-tracking-in-expand")}>
 						<div className={classnames("ui-h--5")}>Hello! I am</div>
 						<h1 className={classnames("ui-h--1", "ui-font--cursive")}>
 							Swornim Barahi

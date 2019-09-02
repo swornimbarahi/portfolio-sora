@@ -8,13 +8,14 @@ import "./App.scss";
 
 const App: FunctionComponent = () => {
 	return (
-		<>
-			<Navbar />
+    <>
+    <Navbar />
 
-			<div className={classnames("ui-body", "ui-ma")}>
-				<MainSection />
-			</div>
-		</>
+		<div className={classnames("ui-body", "ui-ma")}>
+			
+			<MainSection />
+		</div>
+    </>
 	);
 };
 

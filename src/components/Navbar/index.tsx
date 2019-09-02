@@ -12,9 +12,16 @@ export const Navbar: FunctionComponent = () => {
 				styles["navbar-height"]
 			)}
 		>
-			<div className={classnames("ui-flex", "ui-body", "ui-space-between", "ui-ma")}>
+			<div
+				className={classnames(
+					"ui-flex",
+					"ui-body",
+					"ui-space-between",
+					"ui-ma"
+				)}
+			>
 				<div>
-					<h3
+					<div
 						className={classnames(
 							"ui-h--3",
 							"ui-font--cursive",
@@ -22,8 +29,9 @@ export const Navbar: FunctionComponent = () => {
 							"ui-mr--2"
 						)}
 					>
-						swornimbarahi
-					</h3>
+						<span className={"ui-color--blue"}>swornim</span>
+						<span className={"ui-color--red"}>barahi</span>
+					</div>
 				</div>
 				<div className="ui-flex--grow" />
 				<div
@@ -36,7 +44,7 @@ export const Navbar: FunctionComponent = () => {
 							href="#Home"
 							className={classnames("ui-text--no-decor", "ui-color--charcoal")}
 						>
-							<div className={classnames("ui-h--6", styles["navbar-link"])}>
+							<div className={classnames("ui-h--6", "ui-font--light", styles["navbar-link"])}>
 								Home
 							</div>
 						</a>
