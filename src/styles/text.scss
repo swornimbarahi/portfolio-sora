@@ -1,61 +1,61 @@
 .ui-text {
-	/* Align stuff */
-	&--center {
-		text-align: center;
-	}
+  /* Align stuff */
+  &--center {
+    text-align: center;
+  }
 
-	&--left {
-		text-align: left;
-	}
+  &--left {
+    text-align: left;
+  }
 
-	&--right {
-		text-align: right;
-	}
+  &--right {
+    text-align: right;
+  }
 
-	&--justify {
-		text-align: justify;
-	}
+  &--justify {
+    text-align: justify;
+  }
 
-	/* Decoration Stuff */
-	&--no-decor {
-		text-decoration: none;
-	}
+  /* Decoration Stuff */
+  &--no-decor {
+    text-decoration: none;
+  }
 
-	&--underline {
-		text-decoration: underline;
-	}
+  &--underline {
+    text-decoration: underline;
+  }
 
-	&--overline {
-		text-decoration: overline;
-	}
+  &--overline {
+    text-decoration: overline;
+  }
 
-	&--overline-underline {
-		text-decoration: overline underline;
-	}
+  &--overline-underline {
+    text-decoration: overline underline;
+  }
 
-	&--decor {
-		&-dash {
-			text-decoration-style: dashed;
-		}
+  &--decor {
+    &-dash {
+      text-decoration-style: dashed;
+    }
 
-		&-dotted {
-			text-decoration-style: dotted;
-		}
+    &-dotted {
+      text-decoration-style: dotted;
+    }
 
-		&-wavy {
-			text-decoration-style: wavy;
-		}
-	}
+    &-wavy {
+      text-decoration-style: wavy;
+    }
+  }
 }
 
 .ui-font--cursive {
-	font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .ui-font--textura {
-	font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .ui-font--light {
-	font-weight: 100;
+  font-weight: 100;
 }

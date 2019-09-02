@@ -22,13 +22,13 @@
   &--vertical {
     flex-direction: column;
   }
-  
-  &--grow{
+
+  &--grow {
     flex-grow: 1;
   }
 }
 
-.ui-vertical-align{
+.ui-vertical-align {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -62,7 +62,7 @@
   width: 1500px;
 }
 
-@media(max-width: 1800px) {
+@media (max-width: 1800px) {
   .ui-body {
     width: 80vw;
   }

@@ -7,16 +7,15 @@ import { MainSection } from "./sections/MainSection";
 import "./App.scss";
 
 const App: FunctionComponent = () => {
-	return (
+  return (
     <>
-    <Navbar />
+      <Navbar />
 
-		<div className={classnames("ui-body", "ui-ma")}>
-			
-			<MainSection />
-		</div>
+      <div className={classnames("ui-body", "ui-ma")}>
+        <MainSection />
+      </div>
     </>
-	);
+  );
 };
 
 export default App;
