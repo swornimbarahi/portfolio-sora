@@ -3,6 +3,7 @@ $black: /*   */ #000000;
 $red: /*     */ #f05d5e;
 $charcoal: /**/ #230f0f;
 $olive: /*   */ #3f3a3a;
+$blue: /*    */ #004c7b;
 
 .ui-bg {
   &--white {
@@ -23,6 +24,10 @@ $olive: /*   */ #3f3a3a;
 
   &--olive {
     background-color: $olive;
+  }
+
+  &--blue {
+    background-color: $blue;
   }
 }
 
@@ -46,6 +51,10 @@ $olive: /*   */ #3f3a3a;
   &--olive {
     color: $olive;
   }
+
+  &--blue {
+    color: $blue;
+  }
 }
 
 .ui-border-color {
@@ -67,5 +76,9 @@ $olive: /*   */ #3f3a3a;
 
   &--olive {
     border-color: $olive;
+  }
+
+  &--blue {
+    border-color: $blue;
   }
 }

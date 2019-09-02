@@ -1,18 +1,20 @@
 import React, { FunctionComponent } from "react";
+import classnames from "classnames";
 
-import { Background } from "./components/Background";
-import { MainPage } from "./sections/MainPage";
+import { Navbar } from "./components/Navbar";
+import { MainSection } from "./sections/MainSection";
 
 import "./App.scss";
 
 const App: FunctionComponent = () => {
   return (
-    <div className="ui-color--white ui-position--absolute">
-      <Background />
-      <div className="ui-position--fixed">
-        <MainPage />
+    <>
+      <Navbar />
+
+      <div className={classnames("ui-body", "ui-ma")}>
+        <MainSection />
       </div>
-    </div>
+    </>
   );
 };
 
