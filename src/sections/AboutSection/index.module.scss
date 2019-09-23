@@ -6,8 +6,35 @@
   width: 45%;
 }
 
+.breakpoint-btn--1 {
+  display: none;
+}
+
 @media (max-width: 1024px) {
   .my-picture {
-    width: calc(30vw + 200px);
+    width: 300px;
+  }
+
+  .about-me-desc {
+    width: 80%;
+    text-align: center;
+  }
+
+  .breakpoint--1024 {
+    flex-direction: column-reverse;
+  }
+
+  .breakpoint-btn--1 {
+    display: block;
+  }
+
+  .breakpoint-btn--2 {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .my-picture {
+    width: 90%;
   }
 }

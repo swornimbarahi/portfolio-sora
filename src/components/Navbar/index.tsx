@@ -33,14 +33,13 @@ export const Navbar: FunctionComponent = () => {
             <span className={"ui-color--red"}>barahi</span>
           </div>
         </div>
-        <div className="ui-flex--grow" />
         <div
           className={classnames("ui-flex", styles["navbar-links-container"])}
         >
           <div
             className={classnames(
               "ui-ml--1",
-              "ui-mr--1",
+              "ui-mr--2",
               "ui-text--center",
               "ui-vertical-align"
             )}
@@ -62,8 +61,8 @@ export const Navbar: FunctionComponent = () => {
           </div>
           <div
             className={classnames(
-              "ui-ml--1",
-              "ui-mr--1",
+              "ui-ml--2",
+              "ui-mr--2",
               "ui-text--center",
               "ui-vertical-align"
             )}
@@ -79,8 +78,8 @@ export const Navbar: FunctionComponent = () => {
           </div>
           <div
             className={classnames(
-              "ui-ml--1",
-              "ui-mr--1",
+              "ui-ml--2",
+              "ui-mr--2",
               "ui-text--center",
               "ui-vertical-align"
             )}
@@ -96,7 +95,7 @@ export const Navbar: FunctionComponent = () => {
           </div>
           <div
             className={classnames(
-              "ui-ml--1",
+              "ui-ml--2",
               "ui-mr--1",
               "ui-text--center",
               "ui-vertical-align"
@@ -111,6 +110,9 @@ export const Navbar: FunctionComponent = () => {
               </div>
             </a>
           </div>
+        </div>
+        <div>
+          
         </div>
       </div>
     </div>

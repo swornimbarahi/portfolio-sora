@@ -1,12 +1,21 @@
-.main-page--profile-placement {
-  top: 50vh;
-  left: 30vw;
-}
-
 .main-page--profile-picture {
-  width: 40vw;
+	width: 40vw;
 }
 
-.main--section {
-  height: calc(100vh - 80px);
+@media (max-width: 1024px) {
+	.main--section {
+		flex-direction: column-reverse;
+	}
+}
+
+@media (max-width: 760px) {
+	.main-page--profile-picture {
+		width: 300px;
+	}
+}
+
+@media (max-width: 420px) {
+  .main-page--profile-picture {
+    width: 90%;
+  }
 }

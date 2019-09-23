@@ -6,79 +6,103 @@ $olive: /*   */ #3f3a3a;
 $blue: /*    */ #004c7b;
 
 .ui-bg {
-  &--white {
-    background-color: $white;
-  }
+	&--white {
+		background-color: $white;
+	}
 
-  &--black {
-    background-color: $black;
-  }
+	&--black {
+		background-color: $black;
+	}
 
-  &--red {
-    background-color: $red;
-  }
+	&--red {
+		background-color: $red;
+	}
 
-  &--charcoal {
-    background-color: $charcoal;
-  }
+	&--charcoal {
+		background-color: $charcoal;
+	}
 
-  &--olive {
-    background-color: $olive;
-  }
+	&--olive {
+		background-color: $olive;
+	}
 
-  &--blue {
-    background-color: $blue;
-  }
+	&--blue {
+		background-color: $blue;
+	}
 }
 
 .ui-color {
-  &--white {
-    color: $white;
-  }
+	&--white {
+		color: $white;
+	}
 
-  &--black {
-    color: $black;
-  }
+	&--black {
+		color: $black;
+	}
 
-  &--red {
-    color: $red;
-  }
+	&--red {
+		color: $red;
+	}
 
-  &--charcoal {
-    color: $charcoal;
-  }
+	&--charcoal {
+		color: $charcoal;
+	}
 
-  &--olive {
-    color: $olive;
-  }
+	&--olive {
+		color: $olive;
+	}
 
-  &--blue {
-    color: $blue;
-  }
+	&--blue {
+		color: $blue;
+	}
 }
 
 .ui-border-color {
-  &--white {
-    border-color: $white;
-  }
+	&--white {
+		border-color: $white;
+	}
 
-  &--black {
-    border-color: $black;
-  }
+	&--black {
+		border-color: $black;
+	}
 
-  &--red {
-    border-color: $red;
-  }
+	&--red {
+		border-color: $red;
+	}
 
-  &--charcoal {
-    border-color: $charcoal;
-  }
+	&--charcoal {
+		border-color: $charcoal;
+	}
 
-  &--olive {
-    border-color: $olive;
-  }
+	&--olive {
+		border-color: $olive;
+	}
 
-  &--blue {
-    border-color: $blue;
-  }
+	&--blue {
+		border-color: $blue;
+	}
+}
+
+.ui-red--link-container {
+  position: relative;
+}
+
+.ui-red--link:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	background: $red;
+	visibility: hidden;
+	border-radius: 5px;
+	transform: scaleX(0);
+	transition: 0.25s linear;
+}
+
+.ui-red--link:hover:before,
+.ui-red--link:focus:before {
+	visibility: visible;
+	transform: scaleX(1);
 }
