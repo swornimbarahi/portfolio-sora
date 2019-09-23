@@ -3,7 +3,7 @@ import classnames from "classnames";
 
 import { Navbar } from "./components/Navbar";
 import { MainSection } from "./sections/MainSection";
-import {AboutSection} from "./sections/AboutSection";
+import { AboutSection } from "./sections/AboutSection";
 
 import "./App.scss";
 
