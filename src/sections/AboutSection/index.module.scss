@@ -1,0 +1,13 @@
+.my-picture {
+  width: 30vw;
+}
+
+.about-me-desc {
+  width: 45%;
+}
+
+@media(max-width: 1024px) {
+  .my-picture {
+    width: calc(30vw + 200px);
+  }
+}

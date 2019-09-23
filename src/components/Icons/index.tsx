@@ -15,8 +15,7 @@ interface IconsPropType {
 export const Icons: FunctionComponent = () => {
   return (
     <div
-      className={classnames("ui-flex", "ui-min-w--100")}
-      style={{ justifyContent: "flex-end" }}
+      className={classnames("ui-flex", "ui-min-w--100", "ui-center")}
     >
       <div className={classnames("ui-mr--2")}>
         <a
