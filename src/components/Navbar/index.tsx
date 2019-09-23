@@ -38,7 +38,12 @@ export const Navbar: FunctionComponent = () => {
           className={classnames("ui-flex", styles["navbar-links-container"])}
         >
           <div
-            className={classnames("ui-ml--1", "ui-mr--1", "ui-text--center")}
+            className={classnames(
+              "ui-ml--1",
+              "ui-mr--1",
+              "ui-text--center",
+              "ui-vertical-align"
+            )}
           >
             <a
               href="#Home"
@@ -46,7 +51,7 @@ export const Navbar: FunctionComponent = () => {
             >
               <div
                 className={classnames(
-                  "ui-h--6",
+                  "ui-text--md",
                   "ui-font--light",
                   styles["navbar-link"]
                 )}
@@ -56,37 +61,52 @@ export const Navbar: FunctionComponent = () => {
             </a>
           </div>
           <div
-            className={classnames("ui-ml--1", "ui-mr--1", "ui-text--center")}
+            className={classnames(
+              "ui-ml--1",
+              "ui-mr--1",
+              "ui-text--center",
+              "ui-vertical-align"
+            )}
           >
             <a
               href="#About"
               className={classnames("ui-text--no-decor", "ui-color--charcoal")}
             >
-              <div className={classnames("ui-h--6", styles["navbar-link"])}>
+              <div className={classnames("ui-text--md", styles["navbar-link"])}>
                 About
               </div>
             </a>
           </div>
           <div
-            className={classnames("ui-ml--1", "ui-mr--1", "ui-text--center")}
+            className={classnames(
+              "ui-ml--1",
+              "ui-mr--1",
+              "ui-text--center",
+              "ui-vertical-align"
+            )}
           >
             <a
               href="#Experience"
               className={classnames("ui-text--no-decor", "ui-color--charcoal")}
             >
-              <div className={classnames("ui-h--6", styles["navbar-link"])}>
+              <div className={classnames("ui-text--md", styles["navbar-link"])}>
                 Experience
               </div>
             </a>
           </div>
           <div
-            className={classnames("ui-ml--1", "ui-mr--1", "ui-text--center")}
+            className={classnames(
+              "ui-ml--1",
+              "ui-mr--1",
+              "ui-text--center",
+              "ui-vertical-align"
+            )}
           >
             <a
               href="#Projects"
               className={classnames("ui-text--no-decor", "ui-color--charcoal")}
             >
-              <div className={classnames("ui-h--6", styles["navbar-link"])}>
+              <div className={classnames("ui-text--md", styles["navbar-link"])}>
                 Projects
               </div>
             </a>

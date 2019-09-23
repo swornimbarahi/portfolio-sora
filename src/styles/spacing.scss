@@ -69,6 +69,10 @@
 .ui-border {
   border-width: 1px;
 
+  &--none {
+    border: none;
+  }
+
   &--solid {
     border-style: solid;
   }
