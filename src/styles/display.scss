@@ -10,6 +10,10 @@
   &--inline {
     display: inline;
   }
+
+  &--none {
+    display: none;
+  }
 }
 
 .ui-grid {
@@ -64,6 +68,10 @@
 
 .ui-min-w--100 {
   width: 100%;
+}
+
+.ui-min-h--100 {
+  height: 100%;
 }
 
 .ui-overflow--hidden {
