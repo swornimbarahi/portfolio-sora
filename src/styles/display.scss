@@ -58,6 +58,10 @@
   width: 100vw;
 }
 
+.ui-min-vw--50 {
+  width: 50vw;
+}
+
 .ui-min-w--100 {
   width: 100%;
 }
@@ -67,7 +71,8 @@
 }
 
 .ui-body {
-  width: 1500px;
+  max-width: 1500px;
+  text-align: center;
 }
 
 @media (max-width: 1800px) {
