@@ -1,21 +1,7 @@
-.center-logo {
-  padding-right: 30px;
+.logo-black-bg {
+  border-radius: 25px 0px 0px 25px;
 }
 
-@media (max-width: 1366px) {
-  .center-logo {
-    padding-right: 28px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .center-logo {
-    padding-right: 26px;
-  }
-}
-
-@media (max-width: 1366px) {
-  .center-logo {
-    padding-right: 28px;
-  }
+.logo-red-bg {
+  border-radius: 0px 25px 25px 0px;
 }
