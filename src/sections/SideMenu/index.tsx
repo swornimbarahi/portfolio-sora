@@ -1,8 +1,6 @@
 import React, { FunctionComponent } from "react";
 import classnames from "classnames";
 
-import styles from "./index.module.scss";
-
 import { Icons } from "../../components/Icons";
 import { MenuButton } from "../../components/MenuButton";
 
@@ -11,7 +9,7 @@ export const SideMenu: FunctionComponent = () => {
     <div
       className={classnames(
         "ui-position--fixed",
-        "ui-layer--3",
+        "ui-layer--9",
         "ui-min-vh",
         "ui-ml--4",
         "ui-mr--4",

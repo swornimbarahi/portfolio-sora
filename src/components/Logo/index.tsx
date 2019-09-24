@@ -1,8 +1,6 @@
 import React, { FunctionComponent } from "react";
 import classnames from "classnames";
 
-import styles from "./index.module.scss";
-
 export const Logo: FunctionComponent = () => {
   return (
     <div
@@ -11,7 +9,7 @@ export const Logo: FunctionComponent = () => {
         "ui-h--3",
         "ui-font--cursive",
         "ui-pt--1",
-        "ui-position--absolute",
+        "ui-position--fixed",
         "ui-layer--4"
       )}
     >

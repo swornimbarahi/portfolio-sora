@@ -14,17 +14,7 @@ const App: FunctionComponent = () => {
       <SideMenu />
       <Background />
       <Logo />
-      <div
-        className={classnames(
-          "ui-body",
-          "ui-position--relative",
-          "ui-layer--3",
-          "ui-ma"
-        )}
-      >
-        <MainPage />
-      </div>
-      <div style={{ height: "400vh" }} />
+      <MainPage />
     </div>
   );
 };
