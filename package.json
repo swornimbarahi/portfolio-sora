@@ -8,6 +8,7 @@
 		"@types/node": "12.6.8",
 		"@types/react": "16.8.23",
 		"@types/react-dom": "16.8.4",
+		"@types/react-router-dom": "^4.3.5",
 		"classnames": "^2.2.6",
 		"eslint-utils": "^1.4.2",
 		"lodash": "^4.17.15",
