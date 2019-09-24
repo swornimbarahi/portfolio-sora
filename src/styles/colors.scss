@@ -4,6 +4,8 @@ $red: /*     */ #f05d5e;
 $charcoal: /**/ #230f0f;
 $olive: /*   */ #3f3a3a;
 $blue: /*    */ #004c7b;
+$pink: /*    */ #e2b7b7;
+$brown: /*   */ #6b3030;
 
 .ui-bg {
   &--white {
@@ -28,6 +30,14 @@ $blue: /*    */ #004c7b;
 
   &--blue {
     background-color: $blue;
+  }
+
+  &--pink {
+    background-color: $pink;
+  }
+
+  &--brown {
+    background-color: $brown;
   }
 }
 
@@ -55,6 +65,14 @@ $blue: /*    */ #004c7b;
   &--blue {
     color: $blue;
   }
+
+  &--pink {
+    color: $pink;
+  }
+
+  &--brown {
+    color: $brown;
+  }
 }
 
 .ui-border-color {
@@ -80,6 +98,14 @@ $blue: /*    */ #004c7b;
 
   &--blue {
     border-color: $blue;
+  }
+
+  &--pink {
+    border-color: $pink;
+  }
+
+  &--brown {
+    border-color: $brown;
   }
 }
 
