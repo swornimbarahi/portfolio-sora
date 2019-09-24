@@ -11,7 +11,7 @@ export const Logo: FunctionComponent = () => {
         "ui-h--3",
         "ui-font--cursive",
         "ui-pt--1",
-        "ui-position--absolute",
+        "ui-position--fixed",
         "ui-layer--4"
       )}
     >

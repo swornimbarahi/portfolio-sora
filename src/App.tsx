@@ -24,7 +24,6 @@ const App: FunctionComponent = () => {
       >
         <MainPage />
       </div>
-      <div style={{ height: "400vh" }} />
     </div>
   );
 };

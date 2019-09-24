@@ -41,3 +41,7 @@
 .ui-axis--normalize {
   transform: translate(-50%, -50%);
 }
+
+.ui-axis--left {
+  transform: translateX(-50%);
+}
