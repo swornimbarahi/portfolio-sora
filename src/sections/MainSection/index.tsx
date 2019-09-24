@@ -8,7 +8,7 @@ import { Icons } from "../../components/Icons";
 
 export const MainSection: FunctionComponent = () => {
 	return (
-		<div className={classnames("ui-min-vh", "ui-vertical-align")}>
+		<div className={classnames(styles["main-container"], "ui-vertical-align")}>
 			<div
 				className={classnames(
 					"ui-flex",

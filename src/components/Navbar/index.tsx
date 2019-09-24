@@ -7,6 +7,7 @@ export const Navbar: FunctionComponent = () => {
   return (
     <div
       className={classnames(
+        "ui-shadow",
         "ui-position--sticky",
         "ui-vertical-align",
         styles["navbar-height"]
@@ -112,7 +113,7 @@ export const Navbar: FunctionComponent = () => {
           </div>
         </div>
         <div>
-          
+
         </div>
       </div>
     </div>
