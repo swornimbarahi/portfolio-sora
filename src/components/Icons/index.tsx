@@ -14,8 +14,15 @@ interface IconsPropType {
 
 export const Icons: FunctionComponent = () => {
   return (
-    <div className={classnames("ui-flex", "ui-min-w--100", "ui-center")}>
-      <div className={classnames("ui-mr--2")}>
+    <div
+      className={classnames(
+        "ui-flex",
+        "ui-flex--vertical",
+        "ui-min-w--100",
+        "ui-center"
+      )}
+    >
+      <div className={classnames("ui-mt--1", "ui-mb--1")}>
         <a
           href="https://github.com/swornimbarahi"
           target="_blank"
@@ -24,7 +31,7 @@ export const Icons: FunctionComponent = () => {
           <GitHub className={styles["social-logo"]} />
         </a>
       </div>
-      <div className={classnames("ui-ml--2", "ui-mr--2")}>
+      <div className={classnames("ui-mt--1", "ui-mb--1")}>
         <a
           href="mailto:swornimbarahi@gmail.com"
           target="_blank"
@@ -33,7 +40,7 @@ export const Icons: FunctionComponent = () => {
           <Gmail className={styles["social-logo"]} />
         </a>
       </div>
-      <div className={classnames("ui-ml--2", "ui-mr--2")}>
+      <div className={classnames("ui-mt--1", "ui-mb--1")}>
         <a
           href="https://medium.com/@swornimbarahi"
           target="_blank"
@@ -42,7 +49,7 @@ export const Icons: FunctionComponent = () => {
           <Medium className={styles["social-logo"]} />
         </a>
       </div>
-      <div className={classnames("ui-ml--2")}>
+      <div className={classnames("ui-mt--1", "ui-mb--4")}>
         <a
           href="https://linkedin.com/in/swornimbarahi"
           target="_blank"
