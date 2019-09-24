@@ -1,8 +1,6 @@
 import React, { FunctionComponent } from "react";
 import classnames from "classnames";
 
-import styles from "./index.module.scss";
-
 import { Icons } from "../../components/Icons";
 import { MenuButton } from "../../components/MenuButton";
 
