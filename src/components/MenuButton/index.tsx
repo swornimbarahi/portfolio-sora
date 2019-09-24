@@ -1,23 +1,33 @@
-import React, { FunctionComponent, useState } from "react";
+import React, {
+  FunctionComponent,
+  useContext,
+  Dispatch,
+  SetStateAction
+} from "react";
 import classnames from "classnames";
 
 import styles from "./index.module.scss";
 
+import { MenuContext } from "../../stores/MenuContext";
+
 export const MenuButton: FunctionComponent = () => {
-  const [open, setOpen] = useState<boolean>(false);
+  const { showMenu, setShowMenu } = useContext(MenuContext) as {
+    showMenu: boolean;
+    setShowMenu: Dispatch<SetStateAction<boolean>>;
+  };
 
   return (
-    <div onClick={() => setOpen(!open)}>
+    <div onClick={() => setShowMenu(!showMenu)}>
       <div
         className={classnames(
           styles["menu-icon"],
-          open ? styles["menu-icon-open"] : ""
+          showMenu ? styles["menu-icon-open"] : ""
         )}
       >
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span />
+        <span />
+        <span />
+        <span />
       </div>
     </div>
   );

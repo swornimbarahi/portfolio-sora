@@ -4,20 +4,20 @@
   position: relative;
   margin: auto;
   transform: rotate(0deg);
-  transition: 0.5s ease-in-out;
+  transition: 0.9s ease-in-out;
   cursor: pointer;
 
   span {
     display: block;
     position: absolute;
+    background-color: #000000;
     height: 5px;
     width: 100%;
-    background: #000000;
     border-radius: 9px;
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
-    transition: 0.25s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   span:nth-child(1) {
@@ -35,6 +35,10 @@
 }
 
 .menu-icon-open {
+  span {
+    background-color: #f05d5e;
+  }
+
   span:nth-child(1) {
     top: 15px;
     width: 0%;

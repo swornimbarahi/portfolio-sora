@@ -117,9 +117,8 @@ const SecondLine: FunctionComponent = () => {
         )}
       >
         <span className={classnames("ui-bg--red", "ui-color--black")}>
-          Engineer
+          Engineer.
         </span>
-        .
       </div>
     </div>
   );
