@@ -44,7 +44,7 @@ const FirstLine: FunctionComponent = () => {
         "ui-flex",
         "ui-h--6",
         "ui-pb--1",
-        styles["focus-in-contract-bck"]
+        "ui-animate--focus-in"
       )}
     >
       <div
@@ -87,7 +87,7 @@ const SecondLine: FunctionComponent = () => {
         "ui-flex",
         "ui-h--6",
         "ui-pb--1",
-        styles["focus-in-contract-bck"]
+        "ui-animate--focus-in"
       )}
     >
       <div
