@@ -30,6 +30,10 @@
   &--grow {
     flex-grow: 1;
   }
+
+  &--wrap {
+    flex-wrap: wrap-reverse;
+  }
 }
 
 .ui-vertical-align {

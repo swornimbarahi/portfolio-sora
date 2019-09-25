@@ -1,13 +1,19 @@
-import React, { FunctionComponent, useContext } from "react";
+import React, {
+  FunctionComponent,
+  useContext,
+  Dispatch,
+  SetStateAction
+} from "react";
 import classnames from "classnames";
-
+import { Link } from "react-router-dom";
 import styles from "./index.module.scss";
 
 import { MenuContext } from "../../stores/MenuContext";
 
 export const MainMenu: FunctionComponent = () => {
-  const { showMenu } = useContext(MenuContext) as {
+  const { showMenu, setShowMenu } = useContext(MenuContext) as {
     showMenu: boolean;
+    setShowMenu: Dispatch<SetStateAction<boolean>>;
   };
 
   return (
@@ -20,6 +26,7 @@ export const MainMenu: FunctionComponent = () => {
         styles["main-menu-container"],
         { "ui-keep-y": showMenu }
       ])}
+      onClick={() => setShowMenu(!showMenu)}
     >
       <div
         className={classnames([
@@ -46,12 +53,40 @@ export const MainMenu: FunctionComponent = () => {
               "ui-text--md"
             )}
           >
-            <div className={classnames("ui-mt--10", "ui-pt--10")}>Home</div>
-            <div>About</div>
-            <div>Projects</div>
-            <div className={classnames("ui-mb--10", "ui-pb--10")}>
+            <Link
+              to="/"
+              className={classnames(
+                "ui-mt--10",
+                "ui-pt--10",
+                "ui-text--no-decor",
+                "ui-color--red"
+              )}
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              className={classnames("ui-text--no-decor", "ui-color--red")}
+            >
+              About
+            </Link>
+            <Link
+              to="/projects"
+              className={classnames("ui-text--no-decor", "ui-color--red")}
+            >
+              Projects
+            </Link>
+            <Link
+              to="/experience"
+              className={classnames(
+                "ui-mb--10",
+                "ui-pb--10",
+                "ui-text--no-decor",
+                "ui-color--red"
+              )}
+            >
               Experience
-            </div>
+            </Link>
           </div>
         </div>
       </div>

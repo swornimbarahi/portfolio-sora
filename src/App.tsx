@@ -8,6 +8,7 @@ import "./App.scss";
 import { Background } from "./components/Background";
 import { Logo } from "./components/Logo";
 import { MainPage } from "./sections/MainPage";
+import { ProjectsPage } from "./sections/ProjectsPage";
 
 import { MenuContext } from "./stores/MenuContext";
 
@@ -27,7 +28,8 @@ const App: FunctionComponent = () => {
         </MenuContext.Provider>
         <Background />
         <Logo />
-        <Route path="" exact component={MainPage} />
+        <Route path="/" exact component={MainPage} />
+        <Route path="/projects" exact component={ProjectsPage} />
       </Router>
     </div>
   );
