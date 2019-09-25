@@ -12,7 +12,7 @@ export const Logo: FunctionComponent = () => {
         "ui-font--cursive",
         "ui-pt--1",
         "ui-position--fixed",
-        "ui-layer--9"
+        "ui-layer--8"
       )}
     >
       <div className={classnames("ui-min-vw--50", "ui-h--3", "ui-text--right")}>
