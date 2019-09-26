@@ -29,7 +29,7 @@ export const ProjectsPage: FunctionComponent = () => {
               <div className={classnames("ui-flex--grow")} />
               <div
                 className={classnames(
-                  styles["bottom-border"],
+                  "ui-bottom-border",
                   styles["project-container"],
                   "ui-border-color--black",
                   "ui-animate--focus-in-expand"
@@ -47,7 +47,7 @@ export const ProjectsPage: FunctionComponent = () => {
               <div className={classnames("ui-flex--grow")} />
               <div
                 className={classnames(
-                  styles["bottom-border"],
+                  "ui-bottom-border",
                   styles["project-container"],
                   "ui-border-color--black",
                   "ui-animate--focus-in-expand"
@@ -92,14 +92,14 @@ export const ProjectsPage: FunctionComponent = () => {
               <div
                 className={classnames(
                   "ui-border-color--red",
-                  styles["bottom-border"],
+                  "ui-bottom-border",
                   styles["project-container"],
                   "ui-animate--focus-in-expand"
                 )}
               >
                 Shuttler Website
                 <div
-                  className={classnames("ui-text--sm", "ui-pt--1", "ui-pb--3")}
+                  className={classnames("ui-text--xs", "ui-pt--1", "ui-pb--3")}
                 >
                   A mobile app to track the college{"'"}s shuttle
                 </div>
@@ -110,7 +110,7 @@ export const ProjectsPage: FunctionComponent = () => {
               <div
                 className={classnames(
                   "ui-border-color--red",
-                  styles["bottom-border"],
+                  "ui-bottom-border",
                   styles["project-container"],
                   "ui-animate--focus-in-expand"
                 )}
@@ -133,7 +133,7 @@ export const ProjectsPage: FunctionComponent = () => {
               >
                 OneSpot
                 <div
-                  className={classnames("ui-text--sm", "ui-pt--1", "ui-pb--3")}
+                  className={classnames("ui-text--xs", "ui-pt--1", "ui-pb--3")}
                 >
                   A webapp to keep track of job applications
                 </div>

@@ -7,8 +7,10 @@ import { MainMenu } from "./sections/MainMenu";
 import "./App.scss";
 import { Background } from "./components/Background";
 import { Logo } from "./components/Logo";
+
 import { MainPage } from "./sections/MainPage";
 import { ProjectsPage } from "./sections/ProjectsPage";
+import { ExperiencePage } from "./sections/ExperiencePage";
 
 import { MenuContext } from "./stores/MenuContext";
 
@@ -30,6 +32,7 @@ const App: FunctionComponent = () => {
         <Logo />
         <Route path="/" exact component={MainPage} />
         <Route path="/projects" exact component={ProjectsPage} />
+        <Route path="/experience" exact component={ExperiencePage} />
       </Router>
     </div>
   );
