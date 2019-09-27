@@ -1,8 +1,10 @@
-import React, { FunctionComponent, useEffect, ReactNode } from "react";
+import React, { FunctionComponent, ReactNode } from "react";
 import classnames from "classnames";
 
 import LocationRed from "../../assets/location_red.svg";
 import LocationBlack from "../../assets/location_black.svg";
+import CalendarRed from "../../assets/calendar_red.svg";
+import CalendarBlack from "../../assets/calendar_black.svg";
 
 import styles from "./index.module.scss";
 
@@ -72,10 +74,23 @@ const ExperienceLine: FunctionComponent<{
 						])}
 					>
 						{experienceLeft["companyName"]}
-						<div className={classnames("ui-text--xs", "ui-pt--1", "ui-pb--3")}>
+						<div className={classnames("ui-text--xs", "ui-pt--1")}>
+							<em>{experienceLeft["title"]}</em>
+						</div>
+						<div className={classnames("ui-text--xs", "ui-pt--2")}>
 							{experienceLeft["location"]}
 							<img
 								src={LocationBlack}
+								className={classnames("ui-icon--xs", "ui-ml--1")}
+								alt="location-icon"
+							/>
+						</div>
+						<div className={classnames("ui-text--xs", "ui-pt--1", "ui-pb--3")}>
+							{experienceLeft["dates"][0]}
+							{" - "}
+							{experienceLeft["dates"][1]}
+							<img
+								src={CalendarBlack}
 								className={classnames("ui-icon--xs", "ui-ml--1")}
 								alt="location-icon"
 							/>
@@ -103,13 +118,26 @@ const ExperienceLine: FunctionComponent<{
 						)}
 					>
 						{experienceRight["companyName"]}
-						<div className={classnames("ui-text--xs", "ui-pt--1", "ui-pb--3")}>
+						<div className={classnames("ui-text--xs", "ui-pt--1")}>
+							<em>{experienceRight["title"]}</em>
+						</div>
+						<div className={classnames("ui-text--xs", "ui-pt--2")}>
 							<img
 								src={LocationRed}
 								className={classnames("ui-icon--xs", "ui-mr--1")}
 								alt="location-icon"
 							/>
 							{experienceRight["location"]}
+						</div>
+						<div className={classnames("ui-text--xs", "ui-pt--1", "ui-pb--3")}>
+							<img
+								src={CalendarRed}
+								className={classnames("ui-icon--xs", "ui-mr--1")}
+								alt="location-icon"
+							/>
+							{experienceRight["dates"][0]}
+							{" - "}
+							{experienceRight["dates"][1]}
 						</div>
 					</div>
 					<div className={classnames("ui-flex--grow")} />
@@ -119,13 +147,13 @@ const ExperienceLine: FunctionComponent<{
 	);
 };
 
-type ExperienceType = {
+interface ExperienceType {
 	companyName: string;
 	location: string;
 	title: string;
 	dates: [string, string];
 	achievements: string[];
-};
+}
 
 const EXPERIENCES: ExperienceType[] = [
 	{
@@ -146,14 +174,14 @@ const EXPERIENCES: ExperienceType[] = [
 		companyName: "Real Time Solutions",
 		location: "Lalitpur, Nepal",
 		title: "Software Engineering Intern",
-		dates: ["", ""],
+		dates: ["November 2016", "May 2017"],
 		achievements: [""]
 	},
 	{
-		companyName: "Claude J Clark Learning Center",
+		companyName: "Student Accessibility Services",
 		location: "Plattsburgh, NY",
-		title: "Academic Tutor",
-		dates: ["", ""],
+		title: "Mathematics Tutor",
+		dates: ["January 2019", "Present"],
 		achievements: [""]
 	}
 ];

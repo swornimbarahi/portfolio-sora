@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122.926" height="123.54" viewBox="0 0 122.926 123.54">
+  <g id="calendar_red" transform="translate(2145.467 -388)">
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="32" height="13" transform="translate(-2100 401)" fill="#f05d5e"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="13" height="26" rx="6" transform="translate(-2120 388)" fill="#f05d5e"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="13" height="26" rx="6" transform="translate(-2061 388)" fill="#f05d5e"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="6.5" cy="6.5" r="6.5" transform="translate(-2120 434)" fill="#f05d5e"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="6.5" cy="6.5" r="6.5" transform="translate(-2100 434)" fill="#f05d5e"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="6.5" cy="6.5" r="6.5" transform="translate(-2081 434)" fill="#f05d5e"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="6.5" cy="6.5" r="6.5" transform="translate(-2061 434)" fill="#f05d5e"/>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="6.5" cy="6.5" r="6.5" transform="translate(-2120 453)" fill="#f05d5e"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="6.5" cy="6.5" r="6.5" transform="translate(-2100 453)" fill="#f05d5e"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="6.5" cy="6.5" r="6.5" transform="translate(-2081 453)" fill="#f05d5e"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="6.5" cy="6.5" r="6.5" transform="translate(-2061 453)" fill="#f05d5e"/>
+    <circle id="Ellipse_10" data-name="Ellipse 10" cx="6.5" cy="6.5" r="6.5" transform="translate(-2120 473)" fill="#f05d5e"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="6.5" cy="6.5" r="6.5" transform="translate(-2100 473)" fill="#f05d5e"/>
+    <path id="Path_7" data-name="Path 7" d="M-2295.358,509.636c-13.443.21-13.107,12.771-13.107,12.771s.21,72.6.042,85.114,12.9,12.015,12.9,12.015l98.18-.042c11.973.084,11.8-13.276,11.8-13.276V521.4c.084-12.351-12.645-11.763-12.645-11.763h-6.3V521.4h7.184v86.249h-99.23V521.273h7.226V509.636Z" transform="translate(163 -108)" fill="#f05d5e"/>
+  </g>
+</svg>
