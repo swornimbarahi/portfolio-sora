@@ -73,7 +73,7 @@ export const ProjectsPage: FunctionComponent = () => {
                 <div
                   className={classnames("ui-text--sm", "ui-pt--1", "ui-pb--3")}
                 >
-                  A fantasy league webapp for OverWatch
+                  A fantasy league web app for OverWatch
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ export const ProjectsPage: FunctionComponent = () => {
               >
                 Shuttler Website
                 <div
-                  className={classnames("ui-text--xs", "ui-pt--1", "ui-pb--3")}
+                  className={classnames("ui-text--sm", "ui-pt--1", "ui-pb--3")}
                 >
                   A mobile app to track the college{"'"}s shuttle
                 </div>
@@ -133,9 +133,9 @@ export const ProjectsPage: FunctionComponent = () => {
               >
                 OneSpot
                 <div
-                  className={classnames("ui-text--xs", "ui-pt--1", "ui-pb--3")}
+                  className={classnames("ui-text--sm", "ui-pt--1", "ui-pb--3")}
                 >
-                  A webapp to keep track of job applications
+                  A web app to keep track of job applications
                 </div>
               </div>
               <div className={classnames("ui-flex--grow")} />
