@@ -22,7 +22,7 @@ export const MainMenu: FunctionComponent = () => {
         "ui-min-vh",
         "ui-vertical-align",
         "ui-position--fixed",
-        "ui-layer--8",
+        "ui-layer--7",
         styles["main-menu-container"],
         { "ui-keep-y": showMenu }
       ])}
