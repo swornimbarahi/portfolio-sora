@@ -21,18 +21,6 @@ export const MainPage: FunctionComponent = () => {
           <SecondLine />
         </div>
       </div>
-      <img
-        src={MainPicture}
-        alt=""
-        className={classnames(
-          "ui-position--fixed",
-          "ui-position--bottom-0",
-          "ui-layer--3",
-          "ui-ma",
-          "ui-axis--left",
-          styles["main-picture"]
-        )}
-      />
     </div>
   );
 };
