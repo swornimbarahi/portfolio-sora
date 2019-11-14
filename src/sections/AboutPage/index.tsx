@@ -6,60 +6,59 @@ import SoraPicture from "../../assets/sora_picture.svg";
 import styles from "./index.module.scss";
 
 export const AboutPage: FunctionComponent = () => {
-	return (
-		<div
-			className={classnames(
-				"ui-position--fixed",
-				"ui-vertical-align",
-				"ui-layer--4",
-				"ui-min-vh"
-			)}
-		>
-			<div>
-				<div className={classnames("ui-min-vw", "ui-flex", "ui-center")}>
-					<img
-						src={SoraPicture}
-						className={classnames(styles["sora-picture"], "ui-circle")}
-						alt=""
-					/>
-				</div>
-				<div
-					className={classnames(
-						"ui-flex",
-						"ui-text--xxl",
-						"ui-pt--2",
-						"ui-animate--focus-in"
-					)}
-				>
-					<div
-						className={classnames(
-							"ui-min-vw--50",
-							"ui-text--right",
-							"ui-pl--5",
-							"ui-pr--2",
-							"ui-border-box"
-						)}
-					>
-						Swornim
-					</div>
-					<div
-						className={classnames(
-							"ui-min-vw--50",
-							"ui-text--left",
-							"ui-pr--5",
-							"ui-pl--2",
-							"ui-border-box",
-							"ui-color--red"
-						)}
-					>
-						Barahi
-					</div>
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div
+      className={classnames(
+        "ui-position--fixed",
+        "ui-vertical-align",
+        "ui-layer--4",
+        "ui-min-vh"
+      )}
+    >
+      <div>
+        <div className={classnames("ui-min-vw", "ui-flex", "ui-center")}>
+          <img
+            src={SoraPicture}
+            className={classnames(styles["sora-picture"], "ui-circle")}
+            alt=""
+          />
+        </div>
+        <div
+          className={classnames(
+            "ui-flex",
+            "ui-text--xxl",
+            "ui-pt--2",
+            "ui-animate--focus-in"
+          )}
+        >
+          <div
+            className={classnames(
+              "ui-min-vw--50",
+              "ui-text--right",
+              "ui-pl--5",
+              "ui-pr--2",
+              "ui-border-box"
+            )}
+          >
+            Swornim
+          </div>
+          <div
+            className={classnames(
+              "ui-min-vw--50",
+              "ui-text--left",
+              "ui-pr--5",
+              "ui-pl--2",
+              "ui-border-box",
+              "ui-color--red"
+            )}
+          >
+            Barahi
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
-
 
 // I am a Computer Science enthusiast who loves building cool,
 // sophisticated, and helpful software applications. I am currently a
