@@ -16,17 +16,29 @@ export const AboutPage: FunctionComponent = () => {
       )}
     >
       <div>
-        <div className={classnames("ui-min-vw", "ui-flex", "ui-center")}>
+        <div
+          className={classnames(
+            "ui-min-vw",
+            "ui-flex",
+            "ui-center",
+            "no-mobile"
+          )}
+        >
           <img
             src={SoraPicture}
-            className={classnames(styles["sora-picture"], "ui-circle")}
+            className={classnames(
+              styles["sora-picture"],
+              "ui-circle",
+              "ui-no-mobile",
+              "ui-mb--3"
+            )}
             alt=""
           />
         </div>
         <div
           className={classnames(
             "ui-flex",
-            "ui-text--xxl",
+            "ui-text--sm",
             "ui-pt--2",
             "ui-animate--focus-in"
           )}
@@ -34,63 +46,76 @@ export const AboutPage: FunctionComponent = () => {
           <div
             className={classnames(
               "ui-min-vw--50",
+              "ui-flex",
               "ui-text--right",
               "ui-pl--5",
-              "ui-pr--2",
+              "ui-pr--4",
               "ui-border-box"
             )}
           >
-            Swornim
+            <div className="ui-flex--grow" />
+            <div className={classnames("ui-min-vw--30")}>
+              I am currently a senior pursuing a Bachelors of Science degree in
+              Computer Science at SUNY Plattsburgh. I love working on{" "}
+              <a
+                className={classnames(
+                  "ui-text--no-decor",
+                  "ui-color--black",
+                  "ui-text--underline"
+                )}
+                href="https://github.com/swornimbarahi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                projects
+              </a>{" "}
+              as a Full Stack Developer in{" "}
+              <a
+                className={classnames(
+                  "ui-text--no-decor",
+                  "ui-color--black",
+                  "ui-text--underline"
+                )}
+                href="https://www.coding-hub.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Coding Hub
+              </a>
+              , a club on campus.
+            </div>
           </div>
           <div
             className={classnames(
               "ui-min-vw--50",
               "ui-text--left",
+              "ui-flex",
               "ui-pr--5",
-              "ui-pl--2",
+              "ui-pl--4",
               "ui-border-box",
               "ui-color--red"
             )}
           >
-            Barahi
+            <div className={classnames("ui-min-vw--30")}>
+              I grew up helping build and building{" "}
+              <a
+                className={classnames(
+                  "ui-text--no-decor",
+                  "ui-color--red",
+                  "ui-text--underline"
+                )}
+                href="https://festivalscelebratedinnepal.wordpress.com/2017/09/21/rato-machhendranath-jatra-red-chariot/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                a chariot for the Rato Macchendranath deity
+              </a>{" "}
+              in Lalitpur, Nepal. And I love playing the guitar and the drums.
+            </div>
+            <div className="ui-flex--grow" />
           </div>
         </div>
       </div>
     </div>
   );
 };
-
-// I am a Computer Science enthusiast who loves building cool,
-// sophisticated, and helpful software applications. I am currently a
-// senior pursuing a Bachelors of Science degree in Computer Science
-// at SUNY Plattsburgh. I love working on{" "}
-// <a
-//   className={classnames("ui-text--no-decor", "ui-color--red")}
-//   href="https://github.com/swornimbarahi"
-//   target="_blank"
-//   rel="noopener noreferrer"
-// >
-//   projects
-// </a>{" "}
-// with new, upcoming, and interesting technologies. I grew up
-// helping build and building{" "}
-// <a
-//   className={classnames("ui-text--no-decor", "ui-color--red")}
-//   href="https://festivalscelebratedinnepal.wordpress.com/2017/09/21/rato-machhendranath-jatra-red-chariot/"
-//   target="_blank"
-//   rel="noopener noreferrer"
-// >
-//   a chariot for the Rato Macchendranath deity
-// </a>{" "}
-// in Lalitpur, Nepal. I am also a Tech Lead at{" "}
-// <a
-//   className={classnames("ui-text--no-decor", "ui-color--red")}
-//   href="https://www.coding-hub.com"
-//   target="_blank"
-//   rel="noopener noreferrer"
-// >
-//   Coding Hub
-// </a>{" "}
-// which is a club on campus that is dedicated to developing
-// sophisticated software applications to solve students problems at
-// SUNY Plattsburgh.

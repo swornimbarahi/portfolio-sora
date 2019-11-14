@@ -27,3 +27,15 @@
 .ui-bottom-border {
   border-bottom: 3px solid;
 }
+
+@media (max-width: 1366px) {
+  .ui-no-tablet {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .ui-no-mobile {
+    display: none;
+  }
+}
