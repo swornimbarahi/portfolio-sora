@@ -21,7 +21,6 @@ export const AboutPage: FunctionComponent = () => {
             "ui-min-vw",
             "ui-flex",
             "ui-center",
-            "no-mobile"
           )}
         >
           <img
@@ -30,7 +29,8 @@ export const AboutPage: FunctionComponent = () => {
               styles["sora-picture"],
               "ui-circle",
               "ui-no-mobile",
-              "ui-mb--3"
+              "ui-mb--3",
+              "ui-landscape-no-mobile"
             )}
             alt=""
           />

@@ -25,14 +25,17 @@ export const SideMenu: FunctionComponent = () => {
       <div className={"ui-no-mobile"} />
       <div className={"ui-no-mobile"} />
       <div className={"ui-no-mobile"} />
-      <div className={classnames("ui-mt--8", "ui-mb--2")}>
+      <div className={classnames("ui-mt--6")}>
         <MenuButton />
       </div>
-      <div />
-      <div />
-      <div />
+      <div className={"ui-no-landscape-mobile"}/>
+      <div className={"ui-no-landscape-mobile"}/>
+      <div className={"ui-no-landscape-mobile"}/>
       <Icons />
-      <div />
+      <div className={"ui-only-mobile"} />
+      <div className={"ui-only-mobile"} />
+      <div className={"ui-only-mobile"} />
+      <div className={"ui-only-mobile"} />
     </div>
   );
 };
