@@ -50,8 +50,8 @@ const ExperienceLine: FunctionComponent<{
       className={classnames(
         "ui-flex",
         "ui-h--6",
-        "ui-pt--2",
-        "ui-pb--2",
+        "ui-pt--1",
+        "ui-pb--1",
         "ui-animate--focus-in"
       )}
     >
@@ -75,7 +75,18 @@ const ExperienceLine: FunctionComponent<{
               "ui-animate--focus-in-expand"
             ])}
           >
-            {experienceLeft["companyName"]}
+            <a
+              className={classnames(
+                "ui-text--no-decor",
+                "ui-text--underline",
+                "ui-color--black"
+              )}
+              href={experienceLeft["site"]}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {experienceLeft["companyName"]}
+            </a>
             <div className={classnames("ui-text--xs", "ui-pt--1")}>
               <em>{experienceLeft["title"]}</em>
             </div>
@@ -119,7 +130,18 @@ const ExperienceLine: FunctionComponent<{
               "ui-animate--focus-in-expand"
             )}
           >
-            {experienceRight["companyName"]}
+            <a
+              className={classnames(
+                "ui-text--no-decor",
+                "ui-text--underline",
+                "ui-color--red"
+              )}
+              href={experienceRight["site"]}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {experienceRight["companyName"]}
+            </a>
             <div className={classnames("ui-text--xs", "ui-pt--1")}>
               <em>{experienceRight["title"]}</em>
             </div>
