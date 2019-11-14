@@ -21,7 +21,7 @@ export const MenuButton: FunctionComponent = () => {
       <div
         className={classnames(
           styles["menu-icon"],
-          showMenu ? styles["menu-icon-open"] : ""
+          showMenu && styles["menu-icon-open"]
         )}
       >
         <span />

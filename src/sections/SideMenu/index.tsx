@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import React, { FunctionComponent, useEffect } from "react";
 import classnames from "classnames";
 
 import styles from "./index.module.scss";
@@ -22,10 +22,19 @@ export const SideMenu: FunctionComponent = () => {
     >
       <div className={classnames(styles["no-mobile"])} />
       <div className={classnames(styles["no-mobile"])} />
+      <div className={classnames(styles["no-mobile"])} />
+      <div className={classnames(styles["no-mobile"])} />
+      <div className={classnames(styles["no-mobile"])} />
+      <div className={classnames(styles["no-mobile"])} />
+      <div className={classnames(styles["no-mobile"])} />
       <div className={classnames("ui-mt--8", "ui-mb--2")}>
         <MenuButton />
       </div>
+      <div />
+      <div />
+      <div />
       <Icons />
+      <div />
     </div>
   );
 };

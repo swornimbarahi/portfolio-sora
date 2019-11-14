@@ -29,6 +29,14 @@
 
   &--grow {
     flex-grow: 1;
+
+    &-2 {
+      flex-grow: 2;
+    }
+
+    &-6 {
+      flex-grow: 6;
+    }
   }
 
   &--wrap {
