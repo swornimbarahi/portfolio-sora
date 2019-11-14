@@ -1,10 +1,4 @@
 .sora-picture {
-  width: 30vw;
+  width: calc(20vw + 50px);
   box-sizing: border-box;
-}
-
-.sora-picture::before {
-  content: " ";
-  position: absolute;
-  border-top: 20px white solid;
 }

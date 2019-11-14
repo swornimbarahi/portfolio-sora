@@ -1,7 +1,5 @@
-import React, { FunctionComponent, useEffect } from "react";
+import React, { FunctionComponent } from "react";
 import classnames from "classnames";
-
-import styles from "./index.module.scss";
 
 import { Icons } from "../../components/Icons";
 import { MenuButton } from "../../components/MenuButton";
@@ -20,13 +18,13 @@ export const SideMenu: FunctionComponent = () => {
         "ui-space-between"
       )}
     >
-      <div className={classnames(styles["no-mobile"])} />
-      <div className={classnames(styles["no-mobile"])} />
-      <div className={classnames(styles["no-mobile"])} />
-      <div className={classnames(styles["no-mobile"])} />
-      <div className={classnames(styles["no-mobile"])} />
-      <div className={classnames(styles["no-mobile"])} />
-      <div className={classnames(styles["no-mobile"])} />
+      <div className={"ui-no-mobile"} />
+      <div className={"ui-no-mobile"} />
+      <div className={"ui-no-mobile"} />
+      <div className={"ui-no-mobile"} />
+      <div className={"ui-no-mobile"} />
+      <div className={"ui-no-mobile"} />
+      <div className={"ui-no-mobile"} />
       <div className={classnames("ui-mt--8", "ui-mb--2")}>
         <MenuButton />
       </div>
