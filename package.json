@@ -10,7 +10,9 @@
 		"@types/react-dom": "16.8.4",
 		"@types/react-router-dom": "^4.3.5",
 		"classnames": "^2.2.6",
+		"eslint": "^6.6.0",
 		"eslint-utils": "^1.4.2",
+		"global": "^4.4.0",
 		"lodash": "^4.17.15",
 		"lodash.template": "^4.5.0",
 		"node-sass": "^4.12.0",
@@ -25,8 +27,8 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"tslint": " eslint . --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
-		"tslint:fix": " eslint . --fix --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
+		"tslint": "yarn eslint . --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
+		"tslint:fix": "yarn eslint . --fix --cache --cache-location node_modules/.cache/eslint --ext .js,.jsx,.ts,.tsx",
 		"prettier": "prettier --check prettier.config.json \"./src/**/*.{js,ts,tsx,jsx,json,md,scss}\"",
 		"prettier:fix": "prettier --write prettier.config.json \"./src/**/*.{js,ts,tsx,jsx,json,md,scss}\"",
 		"precommit": "yarn prettier && yarn tslint",
@@ -53,6 +55,7 @@
 		"eslint-config-prettier": "^6.0.0",
 		"eslint-config-react": "^1.1.7",
 		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-react": "^7.16.0",
 		"prettier": "^1.18.2"
 	}
 }
