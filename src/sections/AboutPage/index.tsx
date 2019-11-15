@@ -16,21 +16,15 @@ export const AboutPage: FunctionComponent = () => {
       )}
     >
       <div>
-        <div
-          className={classnames(
-            "ui-min-vw",
-            "ui-flex",
-            "ui-center",
-            "no-mobile"
-          )}
-        >
+        <div className={classnames("ui-min-vw", "ui-flex", "ui-center")}>
           <img
             src={SoraPicture}
             className={classnames(
               styles["sora-picture"],
               "ui-circle",
               "ui-no-mobile",
-              "ui-mb--3"
+              "ui-mb--3",
+              "ui-landscape-no-mobile"
             )}
             alt=""
           />

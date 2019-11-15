@@ -28,14 +28,28 @@
   border-bottom: 3px solid;
 }
 
+.ui-only-mobile {
+  display: none;
+}
+
 @media (max-width: 1366px) {
   .ui-no-tablet {
     display: none;
+  }
+
+  .ui-only-mobile {
+    display: block;
   }
 }
 
 @media (max-width: 760px) {
   .ui-no-mobile {
+    display: none;
+  }
+}
+
+@media (max-height: 500px) {
+  .ui-landscape-no-mobile {
     display: none;
   }
 }
