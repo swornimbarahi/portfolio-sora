@@ -1,10 +1,16 @@
-import React, { FunctionComponent } from "react";
+import React, { FunctionComponent, useContext } from "react";
 import classnames from "classnames";
 
 import { Icons } from "../../components/Icons";
 import { MenuButton } from "../../components/MenuButton";
 
+import { MenuContext } from "../../stores/MenuContext";
+
 export const SideMenu: FunctionComponent = () => {
+  const { showIcons } = useContext(MenuContext) as {
+    showIcons: boolean;
+  };
+
   return (
     <div
       className={classnames(
@@ -31,7 +37,14 @@ export const SideMenu: FunctionComponent = () => {
       <div className={"ui-no-landscape-mobile"} />
       <div className={"ui-no-landscape-mobile"} />
       <div className={"ui-no-landscape-mobile"} />
-      <Icons />
+      {showIcons ? (
+        <Icons />
+      ) : (
+        <>
+          <div className="ui-mt--10 ui-mb--10" />
+          <div className="ui-mt--3" />
+        </>
+      )}
       <div className={"ui-only-mobile"} />
       <div className={"ui-only-mobile"} />
       <div className={"ui-only-mobile"} />

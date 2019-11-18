@@ -48,7 +48,7 @@ const LeftProjects = () => {
               "ui-bottom-border",
               styles["project-container"],
               "ui-border-color--black",
-              "ui-animate--focus-in-expand"
+              "ui-animate--text-focus-in"
             )}
           >
             Tutoring Hub
@@ -71,7 +71,7 @@ const LeftProjects = () => {
               "ui-bottom-border",
               styles["project-container"],
               "ui-border-color--black",
-              "ui-animate--focus-in-expand"
+              "ui-animate--text-focus-in"
             )}
           >
             Coches Neurologicos
@@ -92,7 +92,7 @@ const LeftProjects = () => {
           <div
             className={classnames(
               styles["project-container"],
-              "ui-animate--focus-in-expand"
+              "ui-animate--text-focus-in"
             )}
           >
             GamerNOW
@@ -130,7 +130,7 @@ const RightProjects = () => {
               "ui-border-color--red",
               "ui-bottom-border",
               styles["project-container"],
-              "ui-animate--focus-in-expand"
+              "ui-animate--text-focus-in"
             )}
           >
             Shuttler Website
@@ -153,7 +153,7 @@ const RightProjects = () => {
               "ui-border-color--red",
               "ui-bottom-border",
               styles["project-container"],
-              "ui-animate--focus-in-expand"
+              "ui-animate--text-focus-in"
             )}
           >
             Coding Hub Website
@@ -174,7 +174,7 @@ const RightProjects = () => {
           <div
             className={classnames(
               styles["project-container"],
-              "ui-animate--focus-in-expand"
+              "ui-animate--text-focus-in"
             )}
           >
             OneSpot

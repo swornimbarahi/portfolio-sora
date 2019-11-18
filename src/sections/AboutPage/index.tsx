@@ -34,7 +34,7 @@ export const AboutPage: FunctionComponent = () => {
             "ui-flex",
             "ui-text--sm",
             "ui-pt--2",
-            "ui-animate--focus-in"
+            "ui-animate--text-focus-in"
           )}
         >
           <div

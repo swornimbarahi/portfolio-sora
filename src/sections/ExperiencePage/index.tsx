@@ -30,6 +30,7 @@ const ExperienceList = () => {
   for (let i = 0; i < EXPERIENCES.length; i += 2) {
     ret.push(
       <ExperienceLine
+        key={i}
         experienceLeft={EXPERIENCES[i]}
         experienceRight={EXPERIENCES[i + 1]}
         last={EXPERIENCES.length - 2 > i}
@@ -49,10 +50,10 @@ const ExperienceLine: FunctionComponent<{
     <div
       className={classnames(
         "ui-flex",
-        "ui-h--6",
+        "ui-text--md",
         "ui-pt--1",
         "ui-pb--1",
-        "ui-animate--focus-in"
+        "ui-animate--text-focus-in"
       )}
     >
       <div
@@ -127,7 +128,7 @@ const ExperienceLine: FunctionComponent<{
               "ui-border-color--red",
               { "ui-bottom-border": last },
               styles["experience-container"],
-              "ui-animate--focus-in-expand"
+              "ui-animate--text-focus-in"
             )}
           >
             <a

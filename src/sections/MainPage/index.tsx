@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from "react";
 import classnames from "classnames";
+import { ResumeButton } from "../../components/ResumeButton";
 
 export const MainPage: FunctionComponent = () => {
   return (
@@ -17,6 +18,7 @@ export const MainPage: FunctionComponent = () => {
           <SecondLine />
         </div>
       </div>
+      <ResumeButton />
     </div>
   );
 };
@@ -28,7 +30,7 @@ const FirstLine: FunctionComponent = () => {
         "ui-flex",
         "ui-h--6",
         "ui-pb--1",
-        "ui-animate--focus-in"
+        "ui-animate--text-focus-in"
       )}
     >
       <div
@@ -71,7 +73,7 @@ const SecondLine: FunctionComponent = () => {
         "ui-flex",
         "ui-h--6",
         "ui-pb--1",
-        "ui-animate--focus-in"
+        "ui-animate--text-focus-in"
       )}
     >
       <div
