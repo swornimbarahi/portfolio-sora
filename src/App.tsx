@@ -17,15 +17,21 @@ import { AboutPage } from "./sections/AboutPage";
 
 const App: FunctionComponent = () => {
   const [showMenu, setShowMenu] = useState<boolean>();
+  const [showIcons, setShowIcons] = useState<boolean>();
 
   useEffect(() => {
     setShowMenu(false);
+    setShowIcons(true);
   }, []);
+
+  useEffect(() => {
+    setShowIcons(showMenu || window.location.pathname === "/");
+  }, [showMenu]);
 
   return (
     <div className="ui-position--relative">
       <Router>
-        <MenuContext.Provider value={{ showMenu, setShowMenu }}>
+        <MenuContext.Provider value={{ showMenu, setShowMenu, showIcons }}>
           <SideMenu />
           <MainMenu />
         </MenuContext.Provider>

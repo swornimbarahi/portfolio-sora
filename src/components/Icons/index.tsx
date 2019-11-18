@@ -19,7 +19,8 @@ export const Icons: FunctionComponent = () => {
         "ui-flex",
         "ui-flex--vertical",
         "ui-min-w--100",
-        "ui-center"
+        "ui-center",
+        styles["fade-in"]
       )}
     >
       <div className={classnames("ui-mt--1", "ui-mb--1")}>

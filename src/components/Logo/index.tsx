@@ -19,7 +19,7 @@ export const Logo: FunctionComponent = () => {
         <span
           className={classnames(
             "ui-bg--red",
-            "ui-pl--1",
+            "ui-pl--2",
             "ui-pb--1",
             styles["logo-black-bg"]
           )}
@@ -38,7 +38,7 @@ export const Logo: FunctionComponent = () => {
         <span
           className={classnames(
             "ui-bg--black",
-            "ui-pr--1",
+            "ui-pr--2",
             "ui-pb--1",
             styles["logo-red-bg"]
           )}
