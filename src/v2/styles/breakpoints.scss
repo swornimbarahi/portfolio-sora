@@ -1,3 +1,9 @@
-$mobile: 768px;
-$tablet: 1024px;
-$laptop: 1920px;
+$ui-devices: (
+  mobile: 768px,
+  tablet: 1024px,
+  laptop: 1920px
+);
+
+@function ui-device($key) {
+  @return map-get($ui-devices, $key);
+}

@@ -1,9 +1,14 @@
 import React from "react";
-import "./styles/index.scss";
 import classnames from "classnames";
 
+import "./styles/index.scss";
+
+import Test from "./components/Test";
+
 export const App = () => {
-  return <div className={classnames("ui-bg-black")}>
-    
-  </div>;
+  return (
+    <div className={classnames("ui-bg-black")}>
+      <Test />
+    </div>
+  );
 };
