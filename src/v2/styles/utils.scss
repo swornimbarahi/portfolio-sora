@@ -1,0 +1,34 @@
+$border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
+  ridge, solid, initial, inherit;
+
+.ui-display {
+  &--height {
+    height: 100vh;
+  }
+
+  &--width {
+    width: 100vw;
+  }
+
+  &--min-height {
+    min-height: 100vh;
+  }
+
+  &--min-width {
+    min-width: 100vw;
+  }
+}
+
+.ui-border {
+  @each $style in $border-styles {
+    &--#{$style} {
+      border-style: $style;
+    }
+  }
+
+  @for $i from 1 through 25 {
+    &--#{$i} {
+      border-radius: calc($i * 1px);
+    }
+  }
+}

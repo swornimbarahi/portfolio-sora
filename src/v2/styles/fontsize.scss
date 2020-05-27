@@ -1,0 +1,8 @@
+$text-base-size: 1em;
+$text-scale-ratio: 1.2;
+
+.ui-font {
+  @for $i from -2 through 3 {
+    font-size: calc(pow($text-scale-ratio, $i) * $text-base-size);
+  }
+}

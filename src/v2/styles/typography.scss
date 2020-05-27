@@ -1,0 +1,74 @@
+strong {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+em {
+  font-style: italic;
+}
+
+.ui-font {
+  &--normal {
+    font-weight: normal;
+  }
+
+  &--lighter {
+    font-weight: lighter;
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--bolder {
+    font-weight: bolder;
+  }
+}
+
+.ui-text {
+  &--center {
+    text-align: center;
+  }
+
+  &--right {
+    text-align: right;
+  }
+
+  &--left {
+    text-align: left;
+  }
+
+  &--justify {
+    text-align: justify;
+  }
+
+  &--no-decor {
+    text-decoration: none;
+  }
+
+  &--underline {
+    text-decoration: underline;
+  }
+
+  &--overline {
+    text-decoration: overline;
+  }
+
+  &--overline-underline {
+    text-decoration: overline underline;
+  }
+
+  &--decor {
+    &-dashed {
+      text-decoration-style: dashed;
+    }
+
+    &-dotted {
+      text-decoration-style: dotted;
+    }
+
+    &-wavy {
+      text-decoration-style: wavy;
+    }
+  }
+}
