@@ -7,7 +7,8 @@ import Test from "./components/Test";
 
 export const App = () => {
   return (
-    <div className={classnames("ui-bg-black")}>
+    <div className={classnames("ui-bg--black")}>
+      asdfasdf
       <Test />
     </div>
   );
