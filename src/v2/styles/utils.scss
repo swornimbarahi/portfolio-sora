@@ -32,3 +32,19 @@ $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
     }
   }
 }
+
+.ui-margin {
+  @for $i from 1 through 25 {
+    &--#{i} {
+      margin: calc($i * 1px);
+    }
+
+    &--#{i}-em {
+      margin: calc($i * 1em);
+    }
+  }
+
+  &--auto {
+    margin: auto;
+  }
+}
