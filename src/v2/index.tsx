@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import classnames from "classnames";
 
 import "./styles/index.scss";
 
 import ModeContext from "./stores/ModeContext";
 
 import Test from "./components/Test";
+import Intro from "./components/Intro";
 
 export const App = () => {
 	const [theme, setTheme] = useState(true);
@@ -16,14 +16,8 @@ export const App = () => {
 
 	return (
 		<ModeContext.Provider value={{ theme }}>
-			<div
-				className={classnames(
-					"ui-bg--black",
-					"ui-display--min-height",
-          "ui-display--min-width",
-          
-				)}
-			>
+			<div>
+        <Intro />
 				<Test />
 			</div>
 		</ModeContext.Provider>

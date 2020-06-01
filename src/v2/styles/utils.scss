@@ -19,6 +19,24 @@ $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
   }
 }
 
+@for $i from 1 through 25 {
+
+  $size: $i * 1px;
+
+  .ui-b--#{$i} {
+    border: $size;
+  }
+
+  .ui-p--#{$i} {
+    padding: $size;
+  }
+
+  .ui-m--#{$i} {
+    margin: $size;
+  }
+}
+
+
 .ui-border {
   @each $style in $border-styles {
     &--#{$style} {
@@ -34,16 +52,6 @@ $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
 }
 
 .ui-margin {
-  @for $i from 1 through 25 {
-    &--#{i} {
-      margin: calc($i * 1px);
-    }
-
-    &--#{i}-em {
-      margin: calc($i * 1em);
-    }
-  }
-
   &--auto {
     margin: auto;
   }
