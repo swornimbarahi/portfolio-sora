@@ -19,9 +19,19 @@ $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
   }
 }
 
+.ui-no-select {
+  user-select: none;
+}
+
+.ui-no-drag {
+  -webkit-user-drag: none;
+}
+
 @for $i from 1 through 25 {
 
   $size: $i * 1px;
+  $rel-size: $i * 0.1em; 
+
 
   .ui-b--#{$i} {
     border: $size;
@@ -34,25 +44,30 @@ $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
   .ui-m--#{$i} {
     margin: $size;
   }
+
+  .ui-rel-b--#{$i} {
+    border: $rel-size;
+  }
+
+  .ui-rel-p--#{$i} {
+    padding: $rel-size;
+  }
+
+  .ui-rel-m--#{$i} {
+    margin: $rel-size;
+  }
+
+  .ui-b-r--#{$i} {
+    border-radius: $size;
+  }
 }
 
 
-.ui-border {
+
+.ui-b {
   @each $style in $border-styles {
     &--#{$style} {
       border-style: $style;
     }
-  }
-
-  @for $i from 1 through 25 {
-    &--#{$i} {
-      border-radius: calc($i * 1px);
-    }
-  }
-}
-
-.ui-margin {
-  &--auto {
-    margin: auto;
-  }
+  } 
 }
