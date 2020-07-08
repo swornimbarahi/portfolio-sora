@@ -6,6 +6,7 @@ import ModeContext from "./stores/ModeContext";
 
 import Test from "./components/Test";
 import Intro from "./sections/Intro";
+import Education from "./sections/Education";
 
 export const App = () => {
 	const [theme, setTheme] = useState(true);
@@ -18,6 +19,7 @@ export const App = () => {
 		<ModeContext.Provider value={{ theme }}>
 			<div>
         <Intro />
+        <Education />
 				<Test />
 			</div>
 		</ModeContext.Provider>

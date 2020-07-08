@@ -14,16 +14,24 @@ const Intro = () => {
 				"ui-text--center",
 				"ui-bg--black",
 				"ui-display--min-height",
-				"ui-display--min-width"
+        "ui-v-align"
 			)}
 		>
-			<img
-				src={SwornimBarahi}
-				alt=""
-				className={classnames("ui-rel-p--20", "ui-no-select", "ui-no-drag", "ui-landing")}
-			/>
-      <Title bold={1} className="ui-font--white" size={10} uppercase>Swornim Barahi</Title>
-      <Icons />
+			<div>
+				<img
+					src={SwornimBarahi}
+					alt=""
+					className={classnames(
+						"ui-no-select",
+						"ui-no-drag",
+            "ui-landing"
+					)}
+				/>
+				<Title bold={1} className="ui-font--white" size={10} uppercase>
+					Swornim Barahi
+				</Title>
+				<Icons />
+			</div>
 		</div>
 	);
 };

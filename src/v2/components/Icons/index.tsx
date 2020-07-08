@@ -43,9 +43,9 @@ const Icons: FunctionComponent = () => {
 				"ui-flex--row",
 				"ui-flex--space-around",
 				"ui-flex--wrap",
-				"ui-per-m-h--20",
-				"ui-per-m-v--3"
-			)}
+				"ui-per-m-h--5",
+        "ui-per-m-v--7",
+      )}
 		>
 			{IconsList.map((iconData) => {
 				return (
