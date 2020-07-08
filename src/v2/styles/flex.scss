@@ -1,0 +1,35 @@
+.ui-flex {
+  display: flex;
+
+  &--row {
+    flex-direction: row;
+  
+    &-rev {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &--col {
+    flex-direction: column;
+
+    &-rev {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &--wrap {
+    flex-wrap: wrap;
+
+    &-rev {
+      flex-wrap: wrap-reverse;
+    }
+  }
+
+  &--space-evenly {
+    justify-content: space-between;
+  }
+
+  &--space-around {
+    justify-content: space-around;
+  }
+}

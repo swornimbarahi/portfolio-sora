@@ -1,6 +1,8 @@
 $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
   ridge, solid, initial, inherit;
 
+$sides: right, left, top, bottom;
+
 .ui-display {
   &--height {
     height: 100vh;
@@ -30,7 +32,8 @@ $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
 @for $i from 1 through 25 {
 
   $size: $i * 1px;
-  $rel-size: $i * 0.1em; 
+  $rel-size: $i * 0.1em;
+  $per-size: $i * 1%;
 
 
   .ui-b--#{$i} {
@@ -43,6 +46,36 @@ $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
 
   .ui-m--#{$i} {
     margin: $size;
+  }
+
+  .ui-m-h--#{$i} {
+    margin-right: $size;
+    margin-left: $size;
+  }
+
+  .ui-rel-m-h--#{$i} {
+    margin-right: $rel-size;
+    margin-left: $rel-size;
+  }
+
+  .ui-per-m-h--#{$i} {
+    margin-right: $per-size;
+    margin-left: $per-size;
+  }
+
+  .ui-m-v--#{$i} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+
+  .ui-rel-m-v--#{$i} {
+    margin-top: $rel-size;
+    margin-bottom: $rel-size;
+  }
+
+  .ui-per-m-v--#{$i} {
+    margin-top: $per-size;
+    margin-bottom: $per-size;
   }
 
   .ui-rel-b--#{$i} {
@@ -63,6 +96,36 @@ $border-styles: dashed, dotted, double, groove, hidden, inset, none, outset,
 }
 
 
+.ui-landing {
+  width: 80vw;
+}
+
+
+
+.ui-icon {
+  height: 100%;
+}
+
+.ui-icon--container {
+  height: 8vw;
+  padding: 14px;
+}
+
+@media(min-width: 1024px) {
+  .ui-landing {
+    width: 820px;
+  }
+
+  .ui-icon--container {
+    height: 85px;
+  }
+}
+
+@media(max-width: 500px) {
+  .ui-icon--container {
+    height: 40px;
+  }
+}
 
 .ui-b {
   @each $style in $border-styles {

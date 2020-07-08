@@ -26,6 +26,10 @@ em {
 }
 
 .ui-text {
+  &--caps {
+    text-transform: uppercase;
+  }
+
   &--center {
     text-align: center;
   }

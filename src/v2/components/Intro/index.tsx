@@ -4,6 +4,8 @@ import classnames from "classnames";
 
 // assets
 import SwornimBarahi from "../../assets/pictures/swornimbarahi.png";
+import Title from "../Title";
+import Icons from "../Icons";
 
 const Intro = () => {
 	return (
@@ -18,8 +20,10 @@ const Intro = () => {
 			<img
 				src={SwornimBarahi}
 				alt=""
-				className={classnames("ui-rel-p--20", "ui-no-select", "ui-no-drag")}
+				className={classnames("ui-rel-p--20", "ui-no-select", "ui-no-drag", "ui-landing")}
 			/>
+      <Title bold={2} className="ui-font--white" size={10} uppercase>Swornim Barahi</Title>
+      <Icons />
 		</div>
 	);
 };
