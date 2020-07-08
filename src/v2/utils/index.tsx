@@ -4,6 +4,5 @@ const Utils = () => {
   return "utils";
 };
 
-export {Theme};
+export { Theme };
 export default Utils;
-

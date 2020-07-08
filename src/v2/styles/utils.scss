@@ -21,7 +21,7 @@ $sides: right, left, top, bottom;
   &--p-height {
     height: 100%;
   }
-  
+
   &--p-width {
     width: 100%;
   }
@@ -44,11 +44,9 @@ $sides: right, left, top, bottom;
 }
 
 @for $i from 1 through 25 {
-
   $size: $i * 1px;
   $rel-size: $i * 0.1em;
   $per-size: $i * 1%;
-
 
   .ui-b--#{$i} {
     border: $size;
@@ -133,7 +131,7 @@ $sides: right, left, top, bottom;
   padding: 0px 30px;
 }
 
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
   .ui-landing {
     width: 820px;
   }
@@ -147,7 +145,7 @@ $sides: right, left, top, bottom;
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .ui-icon--container {
     height: 58px;
     padding-bottom: 20px;
@@ -159,5 +157,5 @@ $sides: right, left, top, bottom;
     &--#{$style} {
       border-style: $style;
     }
-  } 
+  }
 }

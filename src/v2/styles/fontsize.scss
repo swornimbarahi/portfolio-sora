@@ -2,28 +2,28 @@ $text-base-size: 1em;
 $text-scale-ratio: 1.2;
 
 @function powfont($number, $exponent, $mult) {
-	$value: 1;
+  $value: 1;
 
-	@if $exponent > 0 {
-		@for $i from 1 through $exponent {
-			$value: $value * $number;
-		}
-	} @else if $exponent < 0 {
-		@for $i from 1 through -$exponent {
-			$value: $value / $number;
-		}
-	}
+  @if $exponent > 0 {
+    @for $i from 1 through $exponent {
+      $value: $value * $number;
+    }
+  } @else if $exponent < 0 {
+    @for $i from 1 through -$exponent {
+      $value: $value / $number;
+    }
+  }
 
-	@return $value * $mult;
+  @return $value * $mult;
 }
 
 .ui-font {
-	@for $i from -2 through 18 {
-		$classnumber: $i + 3;
-		$size: powfont($text-scale-ratio, $i, $text-base-size);
+  @for $i from -2 through 18 {
+    $classnumber: $i + 3;
+    $size: powfont($text-scale-ratio, $i, $text-base-size);
 
-		&--#{$classnumber} {
-			font-size: $size;
-		}
-	}
+    &--#{$classnumber} {
+      font-size: $size;
+    }
+  }
 }
