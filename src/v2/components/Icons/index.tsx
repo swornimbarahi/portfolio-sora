@@ -41,24 +41,23 @@ const Icons: FunctionComponent = () => {
 			className={classnames(
 				"ui-flex",
 				"ui-flex--row",
-        "ui-flex--space-around",
-        "ui-flex--wrap",
+				"ui-flex--space-around",
+				"ui-flex--wrap",
 				"ui-per-m-h--20",
 				"ui-per-m-v--3"
 			)}
 		>
 			{IconsList.map((iconData) => {
 				return (
-					<div
-						className={classnames("ui-icon--container")}
-						key={iconData.noLoad}
-					>
-						<img
-							src={iconData.img}
-							alt={iconData.noLoad}
-							className={classnames("ui-icon")}
-						/>
-					</div>
+					<a href={iconData.link} key={iconData.noLoad}>
+						<div className={classnames("ui-icon--container")}>
+							<img
+								src={iconData.img}
+								alt={iconData.noLoad}
+								className={classnames("ui-icon")}
+							/>
+						</div>
+					</a>
 				);
 			})}
 		</div>

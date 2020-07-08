@@ -5,7 +5,7 @@ import "./styles/index.scss";
 import ModeContext from "./stores/ModeContext";
 
 import Test from "./components/Test";
-import Intro from "./components/Intro";
+import Intro from "./sections/Intro";
 
 export const App = () => {
 	const [theme, setTheme] = useState(true);

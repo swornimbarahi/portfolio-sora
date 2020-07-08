@@ -32,7 +32,7 @@ const App: FunctionComponent = () => {
 
   return (
     <div className="ui-position--relative">
-      {window.location.pathname !== "/v2" ? (
+      {!window.location.pathname.startsWith("/v2") ? (
         <>
           <Router>
             <MenuContext.Provider value={{ showMenu, setShowMenu, showIcons }}>
