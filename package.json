@@ -11,7 +11,7 @@
 		"@types/react-router-dom": "^4.3.5",
 		"classnames": "^2.2.6",
 		"global": "^4.4.0",
-		"lodash": "^4.17.15",
+		"lodash": "^4.17.21",
 		"lodash.template": "^4.5.0",
 		"node-sass": "^4.12.0",
 		"react": "^16.8.6",
